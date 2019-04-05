@@ -1,4 +1,4 @@
-package com.enjoy;
+fpackage com.enjoy;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -18,7 +18,7 @@ public class App {
 	
 	@RequestMapping("/hello")
 	public String hello(){
-		return "hello, this is fisrt use git ---->  push to github by https!";
+		return "hello, this is fisrt use git ---->  push to github by https! one github";
 	}
 	
 }
