@@ -18,7 +18,7 @@ public class App {
 	
 	@RequestMapping("/hello")
 	public String hello(){
-		return "hello, this is fisrt use git ---> branch dev";
+		return "hello, this is fisrt use git --->  dev";
 	}
 	
 }
