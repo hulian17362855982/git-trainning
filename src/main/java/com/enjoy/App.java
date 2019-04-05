@@ -18,7 +18,7 @@ public class App {
 	
 	@RequestMapping("/hello")
 	public String hello(){
-		return "hello, this is fisrt use git ---->  fetch from github 3 !";
+		return "hello, this is fisrt use git ---->  fetch from github 4!";
 	}
 	
 }
