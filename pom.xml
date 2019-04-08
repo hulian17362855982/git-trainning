@@ -11,7 +11,8 @@
 	
 	<groupId>com.enjoy</groupId>
 	<artifactId>git-study</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0</version>
+	<packaging>war</packaging>
 	
 	<name>git-study</name>
 	<!-- FIXME change it to the project's website -->
@@ -27,6 +28,12 @@
 		<dependency>
 	        <groupId>org.springframework.boot</groupId>
 	        <artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<!-- 因配置外部Tomcat而配置的依赖 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+			<scope>provided</scope>
 		</dependency>
 	</dependencies>
 </project>
