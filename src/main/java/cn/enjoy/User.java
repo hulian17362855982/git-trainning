@@ -11,4 +11,8 @@ public class User {
     public void print(){
         System.out.println("user， 您好！！！！！！！！！！！！！！！");
     }
+
+    public void say(){
+        System.out.println("english");
+    }
 }
