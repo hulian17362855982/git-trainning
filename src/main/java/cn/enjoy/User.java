@@ -7,4 +7,6 @@ public class User {
     private Integer age;
 
     private Integer sex;
+
+    private Integer score;
 }
