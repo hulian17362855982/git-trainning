@@ -9,7 +9,7 @@ public class User {
     private String classes;
 
     public void print(){
-        System.out.println("user， 您好！！！！！！！！！！！！！！！");
+        System.out.println("user， 您好！");
     }
 
     public void say(){
